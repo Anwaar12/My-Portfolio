@@ -12,7 +12,7 @@
   width: 375px;
   height: 718px;
   background-color: #fff;
-  border-radius: 1px 1px 1px 40px;
+  border-radius: 0 0 0 50px;
   background-image: url("./images/header-shapes\ mobile.png");
   background-repeat: no-repeat;
 }
@@ -21,7 +21,7 @@
   color: #6070ff;
 }
 
-nav {
+.div1 {
   display: flex;
   justify-content: space-between;
   padding: 10px 15px 10px 20px;
@@ -89,4 +89,8 @@ p {
   align-items: center;
   display: flex;
   justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
 }

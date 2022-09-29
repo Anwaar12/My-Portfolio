@@ -138,7 +138,6 @@ a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-
   gap: 12px;
   width: 295px;
   height: 288px;
@@ -146,6 +145,7 @@ a {
   order: 1;
   flex-grow: 0;
 }
+
 .card-works1 {
   box-sizing: border-box;
   display: flex;
@@ -155,7 +155,7 @@ a {
   gap: 12px;
   width: 327px;
   height: 596px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   flex: none;
@@ -167,7 +167,6 @@ a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
   gap: 12px;
   width: 295px;
   height: 80px;
@@ -179,7 +178,7 @@ a {
 .project-title {
   width: 295px;
   height: 36px;
-  font-family: "Poppins";
+  font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -194,7 +193,6 @@ a {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
   justify-content: center;
   gap: 12px;
   width: 236px;
@@ -208,7 +206,7 @@ a {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 8px 0px;
+  padding: 8px;
   width: 55px;
   height: 32px;
   flex: none;
@@ -219,7 +217,7 @@ a {
 .client-text {
   width: 55px;
   height: 16px;
-  font-family: "Poppins";
+  font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -235,6 +233,7 @@ a {
   order: 1;
   flex-grow: 0;
 }
+
 .counter2 {
   flex: none;
   order: 3;
@@ -245,7 +244,7 @@ a {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 8px 0px;
+  padding: 8px;
   width: 88px;
   height: 32px;
   flex: none;
@@ -254,9 +253,8 @@ a {
 }
 
 .back-end {
-  /* width: 88px; */
   height: 16px;
-  font-family: "Poppins";
+  font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -283,7 +281,7 @@ a {
 .year {
   width: 29px;
   height: 16px;
-  font-family: "Poppins";
+  font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -297,7 +295,7 @@ a {
 .primary-para {
   width: 295px;
   height: 76px;
-  font-family: "Poppins";
+  font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -340,7 +338,7 @@ a {
 .html-b {
   width: 29px;
   height: 16px;
-  font-family: "Poppins";
+  font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -371,7 +369,7 @@ a {
 .css-b {
   width: 21px;
   height: 16px;
-  font-family: "Poppins";
+  font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -402,7 +400,7 @@ a {
 .javascript-b {
   width: 65px;
   height: 16px;
-  font-family: "Poppins";
+  font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -440,7 +438,7 @@ a {
 
 .see-project {
   height: 24px;
-  font-family: "Poppins";
+  font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -473,7 +471,7 @@ a {
 .project-title1 {
   width: 295px;
   height: 80px;
-  font-family: "Poppins";
+  font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -501,7 +499,7 @@ a {
 .top-heading {
   width: 327px;
   height: 101px;
-  font-family: "Poppins";
+  font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -518,7 +516,7 @@ a {
 .top-para {
   width: 327px;
   height: 144px;
-  font-family: "Poppins";
+  font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -533,7 +531,7 @@ a {
 .top-link {
   width: 117px;
   height: 24px;
-  font-family: "Poppins";
+  font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -578,7 +576,7 @@ a {
 }
 
 .top-button {
-  font-family: "Poppins";
+  font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -636,7 +634,7 @@ a {
   left: 12px;
   right: 78px;
   top: calc(50% - 24px / 2);
-  font-family: "Poppins";
+  font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -670,7 +668,7 @@ a {
 .javascript1 p {
   height: 24px;
   left: 76px;
-  font-family: "Poppins";
+  font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -705,7 +703,7 @@ a {
 .css1 p {
   height: 24px;
   left: 76px;
-  font-family: "Poppins";
+  font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -743,7 +741,7 @@ a {
   left: 76px;
   right: 12px;
   top: calc(50% - 24px / 2 - 0.36px);
-  font-family: "Poppins";
+  font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -775,7 +773,7 @@ a {
   left: 12px;
   right: 78px;
   top: calc(50% - 24px / 2);
-  font-family: "Poppins";
+  font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -826,7 +824,7 @@ a {
   left: 12px;
   right: 78px;
   top: calc(50% - 24px / 2);
-  font-family: "Poppins";
+  font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -835,7 +833,7 @@ a {
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
-  color: #000000;
+  color: #000;
 }
 
 .arr1 {

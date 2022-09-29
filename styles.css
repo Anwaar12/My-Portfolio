@@ -96,12 +96,10 @@ a {
 }
 
 .works {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   align-items: center;
   padding: 114px 24px;
   gap: 88px;
-  position: absolute;
   width: 375px;
   height: 2788px;
   top: 718px;
@@ -320,6 +318,7 @@ a {
   flex: none;
   order: 2;
   flex-grow: 0;
+  padding-left: 1px;
 }
 
 .html {
@@ -336,6 +335,7 @@ a {
   flex-grow: 0;
   border-style: none;
   cursor: pointer;
+  text-align: center;
 }
 
 .html-b {
@@ -367,6 +367,7 @@ a {
   flex-grow: 0;
   border-style: none;
   cursor: pointer;
+  text-align: center;
 }
 
 .css-b {
@@ -382,6 +383,7 @@ a {
   flex: none;
   order: 0;
   flex-grow: 0;
+  text-align: center;
 }
 
 .javascript {
@@ -398,6 +400,7 @@ a {
   flex-grow: 0;
   border-style: none;
   cursor: pointer;
+  text-align: center;
 }
 
 .javascript-b {
@@ -416,30 +419,13 @@ a {
 }
 
 .action {
-  width: 295px;
-  height: 72px;
   flex: none;
   order: 3;
   flex-grow: 0;
+  margin-top: 10px;
 }
 
 .primary-button {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px;
-  gap: 10px;
-  width: 124px;
-  height: 48px;
-  background-color: #fff;
-  top: calc(50% - 48px / 2);
-  border: 1px solid #6070ff;
-  border-radius: 8px;
-}
-
-.see-project {
-  height: 24px;
   font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -448,20 +434,46 @@ a {
   display: flex;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.03em;
   color: #396df2;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
   border-style: none;
   cursor: pointer;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 124px;
+  height: 48px;
+  background-color: #fff;
+  top: calc(50% - 48px / 2);
+}
+
+.primary-button:disabled {
+  background: #6070ff;
+  color: #e5e5e5;
+}
+
+.primary-button:active {
+  background-color: #2230d2;
+  color: #fff;
+}
+
+.primary-button:enabled {
+  color: #6070ff;
+  background-color: #fff;
+}
+
+.primary-button:hover {
+  background-color: #6070ff;
+  color: #fff;
 }
 
 .primary-text1 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-
   gap: 12px;
   width: 295px;
   height: 124px;
@@ -556,6 +568,8 @@ a {
 
 .top1 {
   margin-left: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .top-b {
@@ -573,6 +587,8 @@ a {
   flex: none;
   order: 3;
   flex-grow: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .top-button {
@@ -598,12 +614,12 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   width: 327px;
   height: 464.15px;
   flex: none;
   order: 1;
   flex-grow: 0;
+  margin-top: 10px;
 }
 
 .frame12 {
@@ -712,6 +728,8 @@ a {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-top: 21px;
+  margin-left: 5px;
 }
 
 .css1 img {
@@ -748,6 +766,8 @@ a {
   display: flex;
   align-items: center;
   color: #253858;
+  margin-top: 21px;
+  margin-left: 5px;
 }
 
 .html1 img {
@@ -767,7 +787,7 @@ a {
   flex-grow: 0;
 }
 
-.frame8 p {
+.frame8 li {
   height: 24px;
   left: 12px;
   right: 78px;
@@ -782,6 +802,7 @@ a {
   justify-content: space-between;
   align-items: center;
   color: #000;
+  padding-top: 30px;
 }
 
 .sep {
@@ -806,6 +827,9 @@ a {
   right: 26px;
   top: calc(50% - 40px / 2);
   border-radius: 8px;
+  padding-top: 24px;
+  padding-left: 90px;
+  margin-left: 30px;
 }
 
 .frame9 {
@@ -818,7 +842,7 @@ a {
   flex-grow: 0;
 }
 
-.frame9 p {
+.frame9 li {
   height: 24px;
   left: 12px;
   right: 78px;
@@ -828,11 +852,12 @@ a {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  display: flex;
+  display: inline-flex;
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
   color: #000;
+  padding-top: 30px;
 }
 
 .arr1 {
@@ -845,4 +870,7 @@ a {
   right: 26px;
   top: calc(50% - 40px / 2);
   border-radius: 8px;
+  padding-top: 24px;
+  padding-left: 100px;
+  margin-left: 92px;
 }

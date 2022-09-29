@@ -441,7 +441,6 @@ a {
   border-radius: 8px;
   box-sizing: border-box;
   flex-direction: row;
-  align-items: center;
   padding: 12px;
   gap: 10px;
   width: 124px;

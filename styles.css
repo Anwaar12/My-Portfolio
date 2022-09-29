@@ -104,7 +104,6 @@ a {
   position: absolute;
   width: 375px;
   height: 2788px;
-  left: 0px;
   top: 718px;
 }
 
@@ -117,7 +116,7 @@ a {
   gap: 12px;
   width: 327px;
   height: 552px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   flex: none;
@@ -139,7 +138,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+
   gap: 12px;
   width: 295px;
   height: 288px;

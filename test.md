@@ -1,0 +1,1 @@
+Contain info about page.

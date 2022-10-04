@@ -31,11 +31,6 @@ Name :Anwaar Salam
 - Twitter: [Anwaar154](https://twitter.com/Anwaar154)
 - LinkedIn: [Anwaar12](https://www.linkedin.com/in/anwaar-salam-61a3821b0/)
 
-👤 **Author2**
-
-Name :Anwaar Salam
-
-- GitHub: [girma](https://github.com/girma336)
 
 ## 🤝 Contributing
 

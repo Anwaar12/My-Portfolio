@@ -35,7 +35,7 @@ Name :Anwaar Salam
 
 Name :Anwaar Salam
 
-- GitHub: [girma](https://github.com/girma336)
+- GitHub: [Girma](https://github.com/girma336)
 
 ## 🤝 Contributing
 

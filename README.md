@@ -6,7 +6,7 @@
 
 > Description the project.
 
-> In this project I make a portfolio copying design from Figma "Template 1". In HTML file I put information about me, I also put links to some of my social media account.In this project I place some of projects and put links to it .While in CSS file I style all the elements by follwing FIGMA styles specified there. I use Flexbox in this prooject.I also use grid in this project to palce element on page. I also add linter files to check for linter errors and then created a github pull request by following github flow.
+> In this project I make a portfolio copying design from Figma "Template 1". In HTML file I put information about me, I also put links to some of my social media account.In this project I place some of projects and put links to it I make form for username email and make button to submit. .While in CSS file I style all the elements by follwing FIGMA styles specified there. I use Flexbox in this prooject.I also use grid in this project to palce element on page. I also add linter files to check for linter errors and then created a github pull request by following github flow.
 
 ## Built With
 

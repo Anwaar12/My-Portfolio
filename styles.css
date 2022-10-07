@@ -167,6 +167,10 @@ a {
   flex: none;
   order: 0;
   flex-grow: 0;
+  
+}
+.snapshoot-portfolio:hover{
+  transform: scale(1.5);
 }
 
 .left-block {
@@ -557,6 +561,8 @@ a {
   height: 48px;
   background-color: #fff;
   top: calc(50% - 48px / 2);
+  transition-property: background-color;
+  transition-duration: 4s;
 }
 
 .primary-button:disabled {

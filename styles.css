@@ -98,7 +98,6 @@ header {
 
 .discription p {
   font-style: normal;
-
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
@@ -269,6 +268,7 @@ article {
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #6070ff;
+  margin-left: -5px;
 }
 
 .back-description .page-list li {
@@ -308,10 +308,6 @@ article {
   margin-left: -40px;
   margin-top: -10px;
   list-style-type: none;
-}
-
-.nav-source li {
-  margin-left: -5px;
 }
 
 .button-m {
@@ -550,7 +546,6 @@ li.language {
 }
 
 .new-contact {
-  margin-top: 142px;
   width: 569px;
   margin-right: auto;
   margin-left: auto;

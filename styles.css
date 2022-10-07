@@ -160,14 +160,6 @@ a {
   margin-right: auto;
 }
 
-.snapshoot-portfolio {
-  border-radius: 8px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  
-}
-
 .left-block {
   display: flex;
   flex-direction: column;

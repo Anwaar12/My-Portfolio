@@ -167,9 +167,6 @@ a {
   flex-grow: 0;
   
 }
-.snapshoot-portfolio:hover{
-  transform: scale(1.5);
-}
 
 .left-block {
   display: flex;

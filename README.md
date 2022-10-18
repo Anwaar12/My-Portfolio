@@ -41,6 +41,8 @@ Name :Anwaar Salam
 
 Name :Ahsan Ghazni
 
+-GitHub: @Ahsan Ghazni Khan
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!

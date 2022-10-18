@@ -6,6 +6,32 @@ body {
   margin-right: auto;
 }
 
+/* script.js styling */
+.mob_mnu_viw {
+  background-color: #6070ff;
+  filter: blur(5px);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.close_icon {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+}
+
+.mnu_lst {
+  position: absolute;
+  top: 30px;
+  left: 10px;
+}
+/* script.js styling */
+
 header {
   position: relative;
   display: block;

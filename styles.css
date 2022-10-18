@@ -665,12 +665,11 @@ li.language {
 
   nav.menu-btn {
     display: block;
-    position: absolute;
-    margin-left: 12px;
-    margin-right: auto;
+    position: fixed;
     top: 0;
-    width: 350px;
-    height: 5792px;
+    width: 375px;
+    height: 5972px;
+    overflow: hidden;
     z-index: 800;
     background: #6070ff;
     padding: 1em;

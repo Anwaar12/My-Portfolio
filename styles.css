@@ -369,8 +369,6 @@ article {
   opacity: 0.8;
 }
 
-/* about me part */
-
 .about-me {
   height: 668px;
   background-color: #fff;
@@ -537,8 +535,6 @@ li.language {
   display: none;
 }
 
-/* contact me form */
-
 .contact-me-form {
   display: flex;
   flex-direction: column;
@@ -672,7 +668,6 @@ li.language {
     display: none;
   }
 
-  /* today */
   nav.menu-btn {
     display: block;
     position: absolute;
@@ -720,11 +715,13 @@ li.language {
 
   nav.menu-btn ul li a {
     font-size: 32px;
-    font-weight: bold;
+    font-weight: 600;
     font-style: normal;
     line-height: 44px;
     color: white;
     text-decoration: none;
+    float: left;
+    margin-left: -170px;
   }
 
   nav.menu-btn .nav-main {
@@ -735,7 +732,7 @@ li.language {
   }
 
   .back-description .page-list li {
-    font-style: normal;
+    font-family: Poppins, sans-serif;
     font-weight: 600;
     font-size: 13px;
     line-height: 16px;

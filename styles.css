@@ -658,11 +658,6 @@ li.language {
   background-color: #0d151e;
 }
 
-.logo-nav .nav-bar li:hover {
-  background-color: #396df2;
-  border-radius: 8px;
-}
-
 @media only screen and (max-width: 768px) {
   nav {
     display: none;
@@ -671,10 +666,10 @@ li.language {
   nav.menu-btn {
     display: block;
     position: absolute;
-    margin-left: auto;
+    margin-left: 12px;
     margin-right: auto;
     top: 0;
-    width: 375px;
+    width: 350px;
     height: 792px;
     z-index: 800;
     background: #6070ff;

@@ -497,13 +497,6 @@ article {
   margin-left: -30px;
 }
 
-.back-description .page-list li:first-child {
-  list-style-type: none;
-  margin-left: 2px;
-  font-size: 16px;
-  font-weight: 500;
-}
-
 .back-description .uniqe-para {
   font-style: normal;
   font-weight: 400;
@@ -635,21 +628,6 @@ div.popover-display {
   margin-left: -20px;
 }
 
-.container-pop .section-e .nav-pop ul {
-  display: flex;
-  flex-wrap: wrap;
-  font-family: Poppins-bold, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #6070ff;
-  list-style-type: none;
-  margin-left: -20px;
-  margin-top: 20px;
-}
-
 .container-pop .section-f {
   position: absolute;
   top: 889px;
@@ -675,21 +653,6 @@ div.popover-display {
   border: 1px solid #396df2;
   border-radius: 8px;
   margin-right: 20px;
-}
-
-.container-pop .section-f button p {
-  display: flex;
-  align-items: center;
-  height: 20px;
-  margin-left: 5px;
-  font-family: Poppins-bold, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  text-align: center;
-  margin-right: 10px;
-  margin-top: 8px;
 }
 
 .container-pop .section-f button img {
@@ -830,6 +793,21 @@ li.language {
   text-align: center;
 }
 
+.container-pop .section-f button p {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  margin-left: 5px;
+  font-family: Poppins-bold, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  margin-right: 10px;
+  margin-top: 8px;
+}
+
 #new-span {
   padding-left: -10px;
 }
@@ -916,6 +894,21 @@ li.language {
   margin-right: auto;
 }
 
+.container-pop .section-e .nav-pop ul {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Poppins-bold, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  list-style-type: none;
+  margin-left: -20px;
+  margin-top: 20px;
+}
+
 .contact-fo input[type="text"],
 .contact-fo input[type="email"] {
   width: 447px;
@@ -945,6 +938,13 @@ li.language {
   background: #ebebff;
   border-radius: 8px;
   margin-bottom: 10px;
+}
+
+.back-description .page-list li:first-child {
+  list-style-type: none;
+  margin-left: 2px;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .contact-fo li textarea {

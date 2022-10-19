@@ -431,15 +431,6 @@ article {
   color: #7a869a;
 }
 
-.container-pop .section-e ul li {
-  margin-right: 10px;
-  align-items: center;
-  padding: 4px 12px;
-  background: #ebebff;
-  border-radius: 8px;
-  margin-bottom: 10px;
-}
-
 .back-description {
   display: flex;
   flex-direction: column;
@@ -615,12 +606,6 @@ div.popover-display {
   margin-bottom: 20px;
   margin-left: 2.077%;
   margin-right: 2.077%;
-}
-
-.container-pop {
-  width: 95.87%;
-  display: grid;
-  grid-template-columns: auto auto;
 }
 
 .container-pop .section-d {
@@ -945,6 +930,21 @@ li.language {
   font-weight: 400;
   color: #172b4d;
   margin-top: 10px;
+}
+
+.container-pop {
+  width: 95.87%;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.container-pop .section-e ul li {
+  margin-right: 10px;
+  align-items: center;
+  padding: 4px 12px;
+  background: #ebebff;
+  border-radius: 8px;
+  margin-bottom: 10px;
 }
 
 .contact-fo li textarea {

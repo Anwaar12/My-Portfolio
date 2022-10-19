@@ -237,15 +237,6 @@ header {
   border-bottom-left-radius: 100px;
 }
 
-.container-pop .section-e ul li {
-  margin-right: 10px;
-  align-items: center;
-  padding: 4px 12px;
-  background: #ebebff;
-  border-radius: 8px;
-  margin-bottom: 10px;
-}
-
 .discription {
   position: absolute;
   margin-right: 0;
@@ -438,6 +429,15 @@ article {
   font-size: 15px;
   line-height: 20px;
   color: #7a869a;
+}
+
+.container-pop .section-e ul li {
+  margin-right: 10px;
+  align-items: center;
+  padding: 4px 12px;
+  background: #ebebff;
+  border-radius: 8px;
+  margin-bottom: 10px;
 }
 
 .back-description {

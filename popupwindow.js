@@ -105,6 +105,7 @@ projectBtn.forEach(function (Btn) {
 		  <li class="languages">css</li>
 		  <li class="languages">javascript</li>
 		</ul>
+		<img id="seprator" src="./imagsPop/Vector 4.svg" alt="Line">
 	  <div class="pop-up-btn">
 		<button class="poppins-regular see-live-btn">See live<img class="live-icon" src="./imagsPop/see-live-icon.svg"/></button>
 		<button class="poppins-regular see-source-btn">See source<img id="github-modal-icon" src="./images/Vector(2).svg"/></button>

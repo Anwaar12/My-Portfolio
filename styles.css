@@ -167,6 +167,22 @@ body {
 button.poppins-regular {
   border: 1px solid #6070ff;
   border-radius: 8px;
+  background-color: #fff;
+}
+
+button.poppins-regular:hover {
+  background: #6070ff;
+  color: #fff;
+}
+
+button.poppins-regular:active {
+  background: #2230d2;
+  color: #fff;
+}
+
+button.poppins-regular:disabled {
+  background-color: #fff;
+  color: #5e6c84;
 }
 
 header {
@@ -993,6 +1009,10 @@ li.language {
 .logo-nav .nav-bar li:hover {
   background-color: #396df2;
   border-radius: 8px;
+}
+
+#seprator {
+  margin-bottom: 5px;
 }
 
 @media only screen and (max-width: 768px) {

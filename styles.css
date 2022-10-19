@@ -237,6 +237,15 @@ header {
   border-bottom-left-radius: 100px;
 }
 
+.container-pop .section-e ul li {
+  margin-right: 10px;
+  align-items: center;
+  padding: 4px 12px;
+  background: #ebebff;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
 .discription {
   position: absolute;
   margin-right: 0;
@@ -248,6 +257,21 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.nav-source li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 24px;
+  padding: 4px 12px;
+  background-color: #ebebff;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
 }
 
 .discription h1 {
@@ -449,21 +473,6 @@ article {
   margin-bottom: 20px;
 }
 
-.nav-source li {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 24px;
-  padding: 4px 12px;
-  background-color: #ebebff;
-  border-radius: 8px;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #6070ff;
-}
-
 .back-description .page-list li {
   font-style: normal;
   font-weight: 400;
@@ -654,15 +663,6 @@ div.popover-display {
   list-style-type: none;
   margin-left: -20px;
   margin-top: 20px;
-}
-
-.container-pop .section-e ul li {
-  margin-right: 10px;
-  align-items: center;
-  padding: 4px 12px;
-  background: #ebebff;
-  border-radius: 8px;
-  margin-bottom: 10px;
 }
 
 .container-pop .section-f {
@@ -1096,6 +1096,14 @@ li.language {
     margin-top: 10px;
   }
 
+  .section-e ul li {
+    margin-right: 10px;
+    align-items: center;
+    padding: 4px 12px;
+    background: #ebebff;
+    border-radius: 8px;
+  }
+
   .vector a {
     display: flex;
     align-items: center;
@@ -1300,14 +1308,6 @@ li.language {
     list-style-type: none;
     margin-left: -20px;
     margin-top: 20px;
-  }
-
-  .section-e ul li {
-    margin-right: 10px;
-    align-items: center;
-    padding: 4px 12px;
-    background: #ebebff;
-    border-radius: 8px;
   }
 
   .section-f {

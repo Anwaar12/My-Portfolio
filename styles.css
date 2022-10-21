@@ -446,6 +446,11 @@ article {
   color: #6070ff;
 }
 
+.section-b li {
+  margin-right: 35px;
+  margin-top: 10px;
+}
+
 .back-description .page-list li {
   font-style: normal;
   font-weight: 400;
@@ -471,6 +476,13 @@ article {
   border-radius: 8px;
   margin-right: 50px;
   row-gap: 20px;
+}
+
+.section-b li:first-child {
+  list-style-type: none;
+  width: 55px;
+  height: 16px;
+  color: #344563;
 }
 
 .back-description .page-list li:first-child {
@@ -587,18 +599,6 @@ div.popover-display {
   margin-left: -40px;
   margin-top: -10px;
   list-style-type: none;
-}
-
-.section-b li:first-child {
-  list-style-type: none;
-  width: 55px;
-  height: 16px;
-  color: #344563;
-}
-
-.section-b li {
-  margin-right: 35px;
-  margin-top: 10px;
 }
 
 .contact-me-form .contact-fo ul li {
@@ -1124,6 +1124,19 @@ li.language {
     z-index: 1;
   }
 
+  .section-e ul li {
+    margin-right: 10px;
+    align-items: center;
+    padding: 4px 12px;
+    background: #ebebff;
+    border-radius: 8px;
+  }
+
+  .section-b li {
+    margin-right: 25px;
+    margin-top: 10px;
+  }
+
   .back-description .page-list li {
     font-style: normal;
     font-weight: 600;
@@ -1269,11 +1282,6 @@ li.language {
     color: #344563;
   }
 
-  .section-b li {
-    margin-right: 25px;
-    margin-top: 10px;
-  }
-
   .section-d {
     width: 311px;
     font-family: Poppins-bold, sans-serif;
@@ -1288,14 +1296,6 @@ li.language {
 
   .section-d p {
     padding: 2px 0 2px 5px;
-  }
-
-  .section-e ul li {
-    margin-right: 10px;
-    align-items: center;
-    padding: 4px 12px;
-    background: #ebebff;
-    border-radius: 8px;
   }
 
   nav.menu-btn .nav-main li {

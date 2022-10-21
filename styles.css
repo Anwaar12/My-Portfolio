@@ -2,16 +2,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-@font-face {
-  font-family: Poppins-bold;
-  src: url(./Poppins.ttf);
-}
-
-@font-face {
-  font-family: Poppins-regular;
-  src: url(./Poppins-Regular.ttf);
-}
-
 .bars-mob {
   display: none;
 }

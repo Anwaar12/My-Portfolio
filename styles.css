@@ -1152,10 +1152,6 @@ li.language {
     margin-left: -15px;
   }
 
-  nav.menu-btn .nav-main li {
-    margin-left: -40px;
-  }
-
   .hole-div {
     width: 375px;
     height: auto;
@@ -1294,28 +1290,16 @@ li.language {
     padding: 2px 0 2px 5px;
   }
 
-  .section-e .nav-pop ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    font-family: Poppins-bold, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    color: #6070ff;
-    list-style-type: none;
-    margin-left: -20px;
-    margin-top: 20px;
-  }
-
   .section-e ul li {
     margin-right: 10px;
     align-items: center;
     padding: 4px 12px;
     background: #ebebff;
     border-radius: 8px;
+  }
+
+   nav.menu-btn .nav-main li {
+    margin-left: -40px;
   }
 
   .section-f {
@@ -1339,21 +1323,6 @@ li.language {
     border: 1px solid #396df2;
     border-radius: 8px;
     margin-right: 20px;
-  }
-
-  .section-f button p {
-    display: flex;
-    align-items: center;
-    height: 20px;
-    margin-left: 5px;
-    font-family: "Times New Roman", Times, serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    text-align: center;
-    margin-right: 10px;
-    margin-top: 8px;
   }
 
   .section-f button img {
@@ -1497,6 +1466,21 @@ li.language {
     line-height: 16px;
     color: #344563;
   }
+
+  .section-f button p {
+    display: flex;
+    align-items: center;
+    height: 20px;
+    margin-left: 5px;
+    font-family: "Times New Roman", Times, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 8px;
+  e
 
   .about-me {
     width: 375px;
@@ -1677,6 +1661,22 @@ li.language {
 
   .contact-fo ul {
     margin-left: -16px;
+  }
+
+  .section-e .nav-pop ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-family: Poppins-bold, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    list-style-type: none;
+    margin-left: -20px;
+    margin-top: 20px;
   }
 
   .contact-fo input[type="text"],

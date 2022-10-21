@@ -451,15 +451,6 @@ article {
   margin-top: 10px;
 }
 
-.back-description .page-list li {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
-  color: #6b778c;
-  margin-top: -12px;
-}
-
 .about-me .lists-of-frame li {
   list-style-type: none;
 }
@@ -649,21 +640,6 @@ div.popover-display {
   margin-left: -20px;
 }
 
-.container-pop .section-e .nav-pop ul {
-  display: flex;
-  flex-wrap: wrap;
-  font-family: Poppins-bold, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #6070ff;
-  list-style-type: none;
-  margin-left: -20px;
-  margin-top: 20px;
-}
-
 .container-pop .section-e ul li {
   margin-right: 10px;
   align-items: center;
@@ -671,6 +647,15 @@ div.popover-display {
   background: #ebebff;
   border-radius: 8px;
   margin-bottom: 10px;
+}
+
+.back-description .page-list li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #6b778c;
+  margin-top: -12px;
 }
 
 .container-pop .section-f {
@@ -698,21 +683,6 @@ div.popover-display {
   border: 1px solid #396df2;
   border-radius: 8px;
   margin-right: 20px;
-}
-
-.container-pop .section-f button p {
-  display: flex;
-  align-items: center;
-  height: 20px;
-  margin-left: 5px;
-  font-family: Poppins-bold, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  text-align: center;
-  margin-right: 10px;
-  margin-top: 8px;
 }
 
 .container-pop .section-f button img {
@@ -852,6 +822,21 @@ li.language {
   text-align: center;
 }
 
+.container-pop .section-f button p {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  margin-left: 5px;
+  font-family: Poppins-bold, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  margin-right: 10px;
+  margin-top: 8px;
+}
+
 #new-span {
   padding-left: -10px;
 }
@@ -938,6 +923,21 @@ li.language {
   margin-right: auto;
 }
 
+.container-pop .section-e .nav-pop ul {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Poppins-bold, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  list-style-type: none;
+  margin-left: -20px;
+  margin-top: 20px;
+}
+
 .contact-fo input[type="text"],
 .contact-fo input[type="email"] {
   width: 447px;
@@ -1004,10 +1004,6 @@ li.language {
 
 @media only screen and (max-width: 768px) {
   nav {
-    display: none;
-  }
-
-  article #close-menu {
     display: none;
   }
 
@@ -1086,6 +1082,10 @@ li.language {
     cursor: pointer;
   }
 
+  article #close-menu {
+    display: none;
+  }
+
   nav #close-menu {
     float: right;
     margin-right: 24px;
@@ -1124,17 +1124,17 @@ li.language {
     z-index: 1;
   }
 
+  .section-b li {
+    margin-right: 25px;
+    margin-top: 10px;
+  }
+
   .section-e ul li {
     margin-right: 10px;
     align-items: center;
     padding: 4px 12px;
     background: #ebebff;
     border-radius: 8px;
-  }
-
-  .section-b li {
-    margin-right: 25px;
-    margin-top: 10px;
   }
 
   .back-description .page-list li {

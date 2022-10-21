@@ -32,7 +32,7 @@
             </div>
             <img src="images/icon-bar.svg" class="bars-mob" id="menu-bar" alt="">
             <nav>
-                <img  id="close-menu" src="" alt="">
+                <img class="bar-new" id="close-menu" src="" alt="">
                 <div class="nav-bar bar-new">
                 <ul class="nav-main">
                     <li><a id="portifolio-2" href="#portfolio-1">Portfolio</a></li>
@@ -44,7 +44,7 @@
         </div>
         <div class="container-1">
             <div class="discription">
-                <h1>I'm Anwaar Salam Glad to see you!</h1>
+                <h1>I'm Anwaar <br>  Glad to see you!</h1>
                 <p>I'm a software developer! I can help you build a product, feature or website look through some of my work and experience! if you like what you  see and have a project you need coded, don't hestiate to contact me</p>
                 <div class="let-s">
                     <h2>LET'S CONNECT</h2>
@@ -88,7 +88,7 @@
                 <div class="button-m">
                     <button class="see-btn" type="button" data-id="0">See Project</button>
                 </div>
-            </div>
+        </div>
         </article>
         <article>
             <div class="image-2 scale-image"></div>
@@ -167,7 +167,7 @@
             </div>
             <div class="back-image-file-3 all-image-pro mid-end scale-image"></div>
         </article>
-    
+    </section>
     <div class="popover-all">
        <div class="pop-over">
         <section class="section-a">
@@ -183,7 +183,8 @@
                 </ul>
             </div>
         </section>
-    </section>
+        </div>
+        
     </div>
     </div>
     <section class="about-me all-page-mode" id="about-1">
@@ -248,24 +249,25 @@
                 <p id="new-info">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
             </div>
             <div class="contact-fo">
-                <form action="https://formspree.io/f/xrgdkrew" method="POST">
+                <form class="form-class" action="https://formspree.io/f/xrgdkrew" method="POST">
                     <ul>
                         <li>
                           <input type="text" id="name" name="user_name" placeholder="User Name" maxlength="30" required/>
                         </li>
                         <li>
-                          <input type="email" id="mail" name="user_email" required placeholder="Email"/>
+                          <input type="email" id="mail" name="user_email" required placeholder="email"/>
                         </li>
                         <li>
-                          <textarea id="msg" name="user_message" maxlength="500" placeholder="Write your message here.."></textarea>
+                          <textarea id="msg" name="user_message" maxlength="500" placeholder="Write your message here..."></textarea>
                         </li>
                         <li>
-                            <button type="submit">Get It Touch"</button>
+                            <p class="if-false"></p>
+                            <button id="submited" type="submit">Get It Touch</button>
                         </li>
                 </form>
             </div>
     </section>
 </div>
-<script src="popupwindow.js"></script>
+<script src="scripts.js"></script>
 </body>
 </html>

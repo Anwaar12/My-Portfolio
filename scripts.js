@@ -120,3 +120,20 @@ projectBtn.forEach(function (Btn) {
     });
   });
 });
+
+const submitForm = document.querySelector(".form-class");
+
+submitForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+  const email = document.getElementById("mail").value.trim();
+  const megForError = document.querySelector(".if-false");
+  const Regx = /^[a-z0-9]+@[a-z0-9-]+\.[a-z0-9-.]+$/;
+
+  if (Regx.test(email) === true) {
+    submitForm.submit();
+    submitForm.reset();
+  } else {
+    document.querySelector(".if-false").textContent =
+      "Your Email Should be LowerCase letter";
+  }
+});
